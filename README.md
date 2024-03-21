@@ -22,20 +22,37 @@ The dataset used for this project is sourced from Kaggle and consists of tweets 
 7. **Documentation and Presentation:** Document the entire project process, methodologies, model choices, and evaluation outcomes.
 
 ## Usage
-1. Clone this repository.
-2. Download the dataset from the provided Kaggle link.
-3. Install the necessary dependencies by running `pip install -r requirements.txt`.
-4. Follow the prompts to preprocess data, train models, and evaluate performance.
+1 - **Clone the Repository:**
+   ```
+   git clone https://github.com/ahmed-eldesoky284/NLP-Twitter-Disaster-Classifier.git
+   cd NLP-Twitter-Disaster-Classifier
+```
 
-## Requirements
-- Python (>=3.6)
-- pandas
-- scikit-learn
-- NLTK
-- TensorFlow or Keras (optional for neural network models)
+2 - **Install Dependencies:**
+  Ensure you have the necessary dependencies installed. You can install them using:
+  ```
+  pip install pandas nltk scikit-learn tensorflow
+  ```
+3 - Run the Jupyter Notebook:
+  Open the provided Jupyter Notebook 
+  (NLP Twitter Disaster Classifier.ipynb) using Jupyter Notebook or JupyterLab and execute each cell sequentially. Make sure to have the CSV 
+  file (train.csv) in the same directory.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
+4 - Interpret the Results:
+   After running the notebook, observe the output to understand the data distribution, model training process, and evaluation results.
+
+
+## File Structure
+  `NLP Twitter Disaster Classifier.ipynb`: Jupyter Notebook containing the code for data exploration, preprocessing, model building,
+  and evaluation.
+  `train.csv`: CSV file containing the bank marketing dataset.
+  README.md: This file providing instructions and information about the project.
+  
+## Contributors
+Ahmed Eldesoky
+## Licens
+
+This project is licensed under the MIT License.
 
 ## Acknowledgements
 - Kaggle for providing the dataset.
